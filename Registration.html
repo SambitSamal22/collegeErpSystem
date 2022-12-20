@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>  Registration Form  </title>
+    <link rel="stylesheet" href="Registration.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script type="text/javascript" src="login.js"></script>
+
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Student Registration Form:</div>
+    <div class="content">
+     <!--<form  method="get"   action="page3.html">-->
+    <form >
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Name Of The Student</span>
+            <input type="text"id="username" placeholder="Enter your name" required>
+            <span id="fname" class="text-danger font-weight-bold" ></span>
+
+          </div>
+          <div class="input-box">
+            <span class="details">Date Of Birth</span>
+            <input type="date"id="date1" placeholder="Enter your username" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" id="email"placeholder="Enter your email" required>
+           
+
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" id="mobile"placeholder="Enter your number" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="text"id="password" placeholder="Enter your password" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Confirm Password</span>
+            <input type="text" id="samepass"placeholder="Confirm your password" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Adders</span>
+            <textarea rows="4" id="add"cols="100" name="comment" >
+              </textarea>
+          </div>
+         
+        </div>
+       
+        <div class="legend">
+            <span class="legend" >Gender:&nbsp; </span>
+            <input id="setD_male" type="radio" name="setD_gender">
+                <label for="setD_male">Male</label>
+            <input id="setD_female" type="radio" name="setD_gender">
+                <label for="setD_female">Female</label>
+        </div>
+        <div id ="term">
+          <input type="checkbox">
+          <label for ="term">Term and Condition</label>
+        </div>
+      
+        <div class="button">
+          <a href="login.html">
+          <input type="button" value="Submit"  />
+        </a>
+        </div>
+    </form>
+    </div>
+  </div>
+
+</body>
+</html>
